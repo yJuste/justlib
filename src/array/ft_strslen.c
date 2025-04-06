@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By:                                            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created:   by Just'                               #+#    #+#             */
-/*   Updated:   by Just'                              ###   ########.fr       */
+/*   Created:   by Juste                               #+#    #+#             */
+/*   Updated:   by Juste                              ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 /*   • Calculate the nb of str in a double array.                             */

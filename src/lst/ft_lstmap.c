@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By:                                            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created:   by Just'                               #+#    #+#             */
-/*   Updated:   by Just'                              ###   ########.fr       */
+/*   Created:   by Juste                               #+#    #+#             */
+/*   Updated:   by Juste                              ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 /*   • Applies a function to each node and returns a new string.              */

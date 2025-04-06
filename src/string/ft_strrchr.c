@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By:                                            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created:   by Just'                               #+#    #+#             */
-/*   Updated:   by Just'                              ###   ########.fr       */
+/*   Created:   by Juste                               #+#    #+#             */
+/*   Updated:   by Juste                              ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 /*   • Finds the first occurence of the char from the end of the string.      */

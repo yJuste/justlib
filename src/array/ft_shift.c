@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By:                                            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created:   by Just'                               #+#    #+#             */
-/*   Updated:   by Just'                              ###   ########.fr       */
+/*   Created:   by Juste                               #+#    #+#             */
+/*   Updated:   by Juste                              ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 /*   • Move X elements from the right to the left.                            */
