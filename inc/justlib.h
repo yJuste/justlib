@@ -22,7 +22,7 @@
 
 # include "../src/get_next_line/get_next_line.h"
 
-// Structures
+// Structure
 
 typedef struct s_list	t_list;
 

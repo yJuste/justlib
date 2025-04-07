@@ -9,7 +9,7 @@
 /*   Updated:   by Juste                              ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-/*   • Applies a function to each node and returns a new string.              */
+/*   • Applies a function to each node and returns a new node.                */
 /* ************************************************************************** */
 #include "justlib.h"
 
