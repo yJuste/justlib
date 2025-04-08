@@ -40,15 +40,11 @@ typedef struct s_list
  *					made by Juste.
  */
 
-/* Fonction starting with is... or to...
- *	-------------- IS / TO ---------------
- */
-
-int			ft_is_separator(char c, const char *sep);
-
 /* Manipulates strings.
  *	-------------- STRING ----------------
  */
+
+int			ft_is_separator(char c, const char *sep);
 
 int			ft_strlen(const char *s);
 int			ft_count_chr(const char *s, const char *chrs);
@@ -91,16 +87,6 @@ char		**ft_strsjoin(const char **s1, const char **s2);
 
 void		ft_print_args(const char *title, char **arg);
 
-/* Allocates or frees.
- *	------------- ALLOCATION -------------
- */
-
-void		*ft_calloc(int count, int size);
-void		*ft_realloc(void *ptr, int old, int new);
-
-void		ft_free_array(void ***arr, int len, char char_or_int);
-void		ft_free(char **s1, char **s2, char **s3, char ***strs);
-
 /* Converts from 1 type to another.
  *	------------- CONVERSION -------------
  */
@@ -117,6 +103,12 @@ char		*ft_itoa(int n);
  */
 
 void		*ft_memcpy(void *dst, const void *src, int n);
+
+void		*ft_calloc(int count, int size);
+void		*ft_realloc(void *ptr, int old, int new);
+
+void		ft_free_array(void ***arr, int len, char char_or_int);
+void		ft_free(char **s1, char **s2, char **s3, char ***strs);
 
 /* Manipulates linked lists.
  *	---------- LISTES CHAINEES -----------

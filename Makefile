@@ -10,7 +10,7 @@ INC_DIR = inc
 OBJ_DIR = obj
 
 # Files
-SRC =	is_to/ft_is_separator.c			\
+SRC =	string/ft_is_separator.c		\
 	string/ft_strlen.c			\
 	string/ft_count_chr.c			\
 	string/ft_strdup.c			\
@@ -37,12 +37,12 @@ SRC =	is_to/ft_is_separator.c			\
 	array/ft_split.c			\
 	array/ft_strsjoin.c			\
 	array/ft_print_args.c			\
-	allocation/ft_calloc.c			\
-	allocation/ft_realloc.c			\
-	allocation/ft_free_array.c		\
-	allocation/ft_free.c			\
 	conversion/ft_atoi.c			\
 	conversion/ft_itoa.c			\
+	memory/ft_calloc.c			\
+	memory/ft_realloc.c			\
+	memory/ft_free_array.c			\
+	memory/ft_free.c			\
 	memory/ft_memcpy.c			\
 	lst/ft_lstnew.c				\
 	lst/ft_lstadd_front.c			\
@@ -102,6 +102,13 @@ credit:
 rf: re
 	rm -rf $(OBJ_DIR)
 	rm -f $(NAME)
+
+swp:
+	find . -type f -name ".*.swp" -exec rm -f {} \;
+	find . -type f -name ".*.swo" -exec rm -f {} \;
+
+sub:
+	git submodule update --init --recursive --remote
 
 s:
 	ls -lh $(NAME)
