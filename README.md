@@ -34,7 +34,7 @@ Le header de 42 qui se compose :
 
 /: MANUEL
 
-// IS\_TO
+// STRING
 
 ```c
 NAME:
@@ -48,9 +48,6 @@ RETURN VALUES:
 0 -> ne fait pas parti de *sep.
 1 -> fait parti de *sep.
 ```
-
-// STRING
-
 ```c
 NAME:
 strlen - calcule la longueur d'un string.
@@ -271,8 +268,37 @@ void
 ft_print_args(const char *title, char **arg);
 ```
 
-// ALLOCATION
+// CONVERSION
 
+```c
+NAME:
+atoi - convertit un nombre en string en int.
+
+SYNOPSIS:
+int
+ft_atoi(const char *s);
+```
+```c
+NAME:
+itoa - convertit un nombre en int en string.
+
+SYNOPSIS:
+char *
+ft_itoa(int n);
+```
+
+// MATHS
+
+// MEMORY
+
+```c
+NAME:
+memcpy - copie dans n'importe quel type.
+
+SYNOPSIS:
+void *
+ft_memcpy(void *dst, const void *src, int n);
+```
 ```c
 NAME:
 calloc - alloue de la mémoire et met tout à 0.
@@ -304,38 +330,6 @@ free - free() 3 string et 1 arr.
 SYNOPSIS:
 void
 ft_free(char **s1, char **s2, char **s3, char ***strs);
-```
-
-// CONVERSION
-
-```c
-NAME:
-atoi - convertit un nombre en string en int.
-
-SYNOPSIS:
-int
-ft_atoi(const char *s);
-```
-```c
-NAME:
-itoa - convertit un nombre en int en string.
-
-SYNOPSIS:
-char *
-ft_itoa(int n);
-```
-
-// MATHS
-
-// MEMORY
-
-```c
-NAME:
-memcpy - copie dans n'importe quel type.
-
-SYNOPSIS:
-void *
-ft_memcpy(void *dst, const void *src, int n);
 ```
 
 // LISTES CHAINEES
@@ -428,4 +422,4 @@ ft_lstdelone(t_list *lst, void (*del)(void *));
 
 Et Don't Panic!
 
-Modifié le 7 Avril 2025 par Juste.
+Modifié le 8 Avril 2025 par Juste.
