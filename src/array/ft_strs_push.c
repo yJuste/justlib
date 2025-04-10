@@ -15,6 +15,7 @@
 
 void	ft_strs_push(char ***arg, char *line)
 {
+	int			i;
 	int			count;
 	char		**new;
 
@@ -23,6 +24,12 @@ void	ft_strs_push(char ***arg, char *line)
 	if (!new)
 		return ;
 	new = ft_strscpy(new, (const char **)*arg);
+	i = 0;
+	while (i < count)
+	{
+		new[i] = (*arg)[i];
+		i++;
+	}
 	new[count] = ft_strdup((const char *)line);
 	new[count + 1] = NULL;
 	ft_free_array((void ***)arg, 0, 'c');
