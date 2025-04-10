@@ -22,7 +22,7 @@ void	ft_strs_push(char ***arg, char *line)
 	new = ft_calloc(count + 2, sizeof(char *));
 	if (!new)
 		return ;
-	new = ft_strsdup((const char **)*arg);
+	new = ft_strscpy(new, (const char **)*arg);
 	new[count] = ft_strdup((const char *)line);
 	new[count + 1] = NULL;
 	ft_free_array((void ***)arg, 0, 'c');

@@ -97,7 +97,7 @@ credit:
 	@echo "|   dans le futur, merci. 😁                              |"
 	@echo "|                                                         |"
 	@echo "| EOF:                                                    |"
-	@echo "| Dernière modification le 7 Avril 2025 par Juste.        |"
+	@echo "| Dernière modification le 11 Avril 2025 par Juste.       |"
 	@echo ".---------------------------------------------------------."
 	@echo $(RESET)
 rf: re
@@ -105,8 +105,7 @@ rf: re
 	rm -f $(NAME)
 
 swp:
-	find . -type f -name ".*.swp" -exec rm -f {} \;
-	find . -type f -name ".*.swo" -exec rm -f {} \;
+	find . -type f -name ".*.sw*" -exec rm -f {} \;
 
 sub:
 	git submodule update --init --recursive --remote
