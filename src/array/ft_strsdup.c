@@ -19,9 +19,9 @@ char	**ft_strsdup(const char **s)
 	int			j;
 	char		**dest;
 
-	j = 0;
-	while (s[j])
-		j++;
+	if (!s || !*s)
+		return (NULL);
+	j = ft_strslen(s);
 	dest = ft_calloc(j + 1, sizeof(char *));
 	if (!dest)
 		return (NULL);
