@@ -23,7 +23,6 @@ void	ft_strs_push(char ***arg, char *line)
 	new = ft_calloc(count + 2, sizeof(char *));
 	if (!new)
 		return ;
-	new = ft_strscpy(new, (const char **)*arg);
 	i = 0;
 	while (i < count)
 	{
