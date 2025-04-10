@@ -85,6 +85,8 @@ void		ft_strs_push(char ***arg, char *line);
 char		**ft_split(const char *s, const char *sep);
 char		**ft_strsjoin(const char **s1, const char **s2);
 
+char		**ft_sort_chr_tab(char **strs);
+
 void		ft_print_args(const char *title, char **arg);
 
 /* Converts from 1 type to another.

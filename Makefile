@@ -36,6 +36,7 @@ SRC =	string/ft_is_separator.c		\
 	array/ft_strs_push.c			\
 	array/ft_split.c			\
 	array/ft_strsjoin.c			\
+	array/ft_sort_chr_tab.c			\
 	array/ft_print_args.c			\
 	conversion/ft_atoi.c			\
 	conversion/ft_itoa.c			\
