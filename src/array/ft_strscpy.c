@@ -18,6 +18,8 @@ char	**ft_strscpy(char **dst, const char **src)
 	int		i;
 
 	i = 0;
+	if (!src || !src[0])
+		return (NULL);
 	while (src[i])
 	{
 		dst[i] = ft_strdup((const char *)src[i]);
