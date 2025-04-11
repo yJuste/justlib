@@ -20,7 +20,7 @@ char	**ft_strs_push(char **arg, char *line)
 
 	count = ft_strslen((const char **)arg);
 	new = ft_realloc(arg, sizeof(char *) * count,
-			sizeof(char *) * (count + 1));
+			sizeof(char *) * (count + 2));
 	if (!new)
 		return (NULL);
 	new[count] = ft_strdup((const char *)line);
