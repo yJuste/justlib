@@ -25,6 +25,5 @@ char	**ft_strs_push(char **arg, char *line)
 		return (NULL);
 	new[count] = ft_strdup((const char *)line);
 	new[count + 1] = NULL;
-	ft_free_array((void ***)arg, 0, 'c');
 	return (new);
 }
