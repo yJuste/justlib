@@ -80,7 +80,7 @@ int			ft_next_str(const char **arg, const char *to_look, int n);
 
 int			ft_interversion(char **arg, int src, int dst, int range);
 char		**ft_shift(char **arg, int src, int range);
-void		ft_strs_push(char ***arg, char *line);
+char		**ft_strs_push(char **arg, char *line);
 
 char		**ft_split(const char *s, const char *sep);
 char		**ft_strsjoin(const char **s1, const char **s2);
